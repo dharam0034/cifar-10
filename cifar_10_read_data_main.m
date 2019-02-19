@@ -1,4 +1,4 @@
-%%This intial code block was provided by professor
+%%This intial code block was provided by professor (till line number 75)
 
 if exist('tr_data','var') && size(tr_data,1) == 50000
   disp('Seems that data exists, clean tr_data to re-read!');
@@ -73,6 +73,12 @@ for data_ind = 1:size(te_data,1)
   end;
 end;
 fprintf('Done!\n');
+
+
+
+
+
+
 
 %% The code of different classifiers starts  here. 
 
